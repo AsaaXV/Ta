@@ -1,5 +1,10 @@
 // Daftar nama yang akan diacak
-let namaList = ["Alice", "Budi", "Citra", "Dani", "Eka", "Fina", "Gita", "Hani", "Ivan", "Joko"];
+let namaList = [
+    "sulung", "fety", "emil", "Haikal", "Fathir", "zenmatho", "syahfira", 
+    "jelani", "Luppiiii", "zula", "Lily", "Anggi", "Doal", "Eclin", "R A F A", 
+    "Akbar", "fadlur", "stepi", "risma", "keisei", "krecia", "Annisya", "suci", 
+    "Qanitah", "Kezia", "Nabile", "naura", "aura", "Fiqhy", "patim", "Aronaru"
+];
 
 // Fungsi untuk memperbarui tampilan daftar nama
 function updateNamaList() {
