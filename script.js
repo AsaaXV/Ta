@@ -3,7 +3,9 @@ let namaList = [
     "sulung", "fety", "emil", "Haikal", "Fathir", "zenmatho", "syahfira", 
     "jelani", "Luppiiii", "zula", "Lily", "Anggi", "Doal", "Eclin", "R A F A", 
     "Akbar", "fadlur", "stepi", "risma", "keisei", "krecia", "Annisya", "suci", 
-    "Qanitah", "Kezia", "Nabile", "naura", "aura", "Fiqhy", "patim", "Aronaru"
+    "Qanitah", "Kezia", "Nabile", "naura", "aura", "Fiqhy", "patim", "Aronaru",
+    "FACHRI FAUZHAN A.", "Nuna", "Fahrizal", "shabrina", "lucky", "Mbut", 
+    "baso (bom)", "Muh Fatur Idris"
 ];
 
 // Fungsi untuk memperbarui tampilan daftar nama
@@ -17,7 +19,7 @@ function updateNamaList() {
     });
 }
 
-// Fungsi untuk mengacak dan membentuk kelompok
+// Fungsi untuk mengacak dan membentuk kelompok berisi 5 orang
 function acakKelompok() {
     if (namaList.length < 5) {
         alert("Tidak cukup nama untuk membentuk kelompok!");
