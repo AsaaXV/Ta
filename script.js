@@ -19,13 +19,13 @@ function updateNamaList() {
 
 // Fungsi untuk mengacak dan membentuk kelompok
 function acakKelompok() {
-    if (namaList.length < 4) {
+    if (namaList.length < 5) {
         alert("Tidak cukup nama untuk membentuk kelompok!");
         return;
     }
 
     let kelompok = [];
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 5; i++) {
         const randomIndex = Math.floor(Math.random() * namaList.length);
         kelompok.push(namaList[randomIndex]);
         namaList.splice(randomIndex, 1); // Hapus nama yang sudah digunakan
